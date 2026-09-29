@@ -96,8 +96,14 @@
 <main id="main">
 
   <!-- ============================ HERO ============================ -->
-  <section class="hero" aria-labelledby="hero-title">
-    <div class="shell hero__grid">
+  <section class="hero hero--video" aria-labelledby="hero-title">
+    <div class="hero__bg" aria-hidden="true">
+      <video class="hero__video" autoplay muted loop playsinline preload="auto"
+             poster="assets/video/hero-poster.jpg">
+        <source src="assets/video/hero-720.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="shell hero__inner">
       <div class="hero__content">
         <p class="eyebrow" data-reveal>Stamped &amp; Decorative Concrete · Since 1983</p>
         <h1 class="hero__title" id="hero-title" data-reveal>
@@ -110,19 +116,12 @@
         </p>
         <div class="hero__actions" data-reveal>
           <a class="btn btn--primary btn--lg" href="#estimate">Request a Quote</a>
-          <a class="btn btn--outline btn--lg" href="#work">View Our Work</a>
+          <a class="btn btn--outline btn--outline-light btn--lg" href="#work">View Our Work</a>
         </div>
         <a class="hero__phone" href="tel:+12023014680" data-reveal>
           <span class="hero__phone-label">Speak with our team</span>
           <span class="hero__phone-num">(202) 301-4680</span>
         </a>
-      </div>
-
-      <div class="hero__media" data-reveal>
-        <img src="assets/img/hero.jpg" width="1600" height="1000"
-             alt="Stamped cobblestone concrete driveway with a decorative compass-rose medallion inlay"
-             decoding="async">
-        <span class="hero__media-tag">Stamped cobblestone driveway · Washington, DC</span>
       </div>
     </div>
 

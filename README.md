@@ -54,6 +54,10 @@ dark header so the silver "SCOTT" logo pops. Archivo + Inter typography.
 - **Logo & photos are real** — the header/footer use the actual Scott logo, and every
   project image is a real Scott job pulled from the current site. Swap or add photos by
   dropping files into `assets/img/`.
+- **Hero background video** — the hero uses a full-bleed, muted, looping background video
+  (`assets/video/hero-720.mp4`, ~0.8 MB, 720p) from Pexels (free license), with
+  `hero-poster.jpg` as the poster/fallback; reduced-motion users get the still frame.
+  It plays on both mobile and desktop. Swap the files to change it.
 - **Estimate form** — front-end only; it does not submit anywhere yet. Wire it to email or
   a CRM (Formspree, Netlify Forms, GHL, etc.) to start capturing leads.
 - **"Licensed, Bonded & Insured"** is taken from the company's own yard sign shown in a
